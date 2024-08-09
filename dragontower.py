@@ -12,7 +12,7 @@ print("\n6: 714.42x")
 print("\n7: 2143.26x")
 print("\n8: 6429.78x")
 print("\n9: 19,289.34x")
-print("\n ")
+print("\n")
 
 pathLength = int(input("Enter path length, 1-9: "))  
 
@@ -33,7 +33,7 @@ def runSimulation():
     path = generatePath()
     printPathSummary(path)
     
-    print("\nFollowing path order: . Press 'Esc' to stop.")
+    print("\nFollowing path order: Press 'Esc' to stop.")
     for direction in path:
         if keyboard.is_pressed('esc'):
             print("Stopping.")
